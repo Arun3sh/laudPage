@@ -10,12 +10,14 @@
 #headerBlack ul{
   border-radius: 0;
 }
-#headerBlack ul, #headerBlack li, #headerBlack a, .headingBlack{
+#headerBlack ul, #headerBlack li, #headerBlack a{
   background-color: #1B1C1D;
   color: white;
   margin: 0;
 }
 .headingBlack{
+  background-color: #1B1C1D;
+  color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
