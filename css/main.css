@@ -1,6 +1,9 @@
 *{
   font-size: 16px;
 }
+.container{
+  padding: 0;
+}
 .divBlack{
   background-color: #1B1C1D;
 }
@@ -16,19 +19,11 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50vh;
-}
-.flexContainer{
-  display: flex;
-  flex-direction: row;
-}
-.contentBox{
-  display: flex;
-  flex-direction: column;
+  min-height: 500px;
 }
 .contentBox div{
   margin: 50px 0px 0px 0px;
-  height: 165px;
+  min-height: 165px;
 }
 .contentImage{
   display: flex;
@@ -36,14 +31,13 @@
   justify-content: center;
 }
 .contentImage img{
-  object-fit: cover;
   max-height: 300px;
   max-width: 200px;
   border-radius: 5px;
 }
 .contentButton{
   text-align: center;
-  height: 150px;
+  min-height: 150px;
 }
 .btn{
   border-top: 50px;
@@ -57,7 +51,7 @@
   background-color: #F2711C;
 }
 .quotes{
-  height: 100px;
+  min-height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,16 +62,13 @@
   margin: 0;
 }
 .horizontalLine{
-  display: flex;
-  flex-direction: row;
   height: 130px;
+  align-items: center;
 }
 hr{
   border-top: 1px solid rgba(0,0,0,.5);
 }
 .flexContainerAwards{
-  display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: center;
 }
@@ -87,11 +78,17 @@ hr{
 hr{
   margin-top: 60px;
 }
+.awardsRow{
+  min-height: 300px;
+}
 .awards{
+  height: fit-content;
   display: flex;
   flex-direction: column;
   border: 1px solid grey;
-  margin: 10px;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 15px;
 }
 .row hr{
   margin-top: 15px;
@@ -99,13 +96,19 @@ hr{
 .title{
   text-align: center;
   align-items: center;
-  height: 150px;
+  min-height: 150px;
+}
+ul{
+  margin: 50px 0 100px 0;
+}
+ul li{
+  font-size: 14px;
 }
 .footer{
   display: flex;
   align-items: center;
   color: white;
-  height: 300px;
+  min-height: 300px;
 }
 .blue{
   color: blue;
