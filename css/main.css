@@ -13,6 +13,7 @@
 #headerBlack ul, #headerBlack li, #headerBlack a, .headingBlack{
   background-color: #1B1C1D;
   color: white;
+  margin: 0;
 }
 .headingBlack{
   display: flex;
